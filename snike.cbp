@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="snike" />
+		<Option pch_mode="2" />
+		<Option compiler="bcc102" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/snike" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="bcc102" />
+				<Compiler>
+					<Add option="-v" />
+					<Add directory="include" />
+					<Add directory="snike/obj/Debug/include" />
+					<Add directory="Desktop/HELP" />
+				</Compiler>
+				<Linker>
+					<Add option="-v" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/snike" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="bcc102" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="snike/obj/Debug/include" />
+					<Add directory="Desktop/HELP" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-w" />
+			<Add option="-x" />
+		</Compiler>
+		<Linker>
+			<Add library="cw32mt.lib" />
+			<Add library="import32.lib" />
+		</Linker>
+		<Unit filename="../../../../Desktop/HELP/TComida.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TComida.h" />
+		<Unit filename="../../../../Desktop/HELP/TCuerpo.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TCuerpo.h" />
+		<Unit filename="../../../../Desktop/HELP/TEdit.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TEdit.h" />
+		<Unit filename="../../../../Desktop/HELP/TLabel.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TLabel.h" />
+		<Unit filename="../../../../Desktop/HELP/TMove.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TMove.h" />
+		<Unit filename="../../../../Desktop/HELP/TObject.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TObject.h" />
+		<Unit filename="../../../../Desktop/HELP/TTimer.cpp" />
+		<Unit filename="../../../../Desktop/HELP/TTimer.h" />
+		<Unit filename="../../../../Desktop/HELP/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

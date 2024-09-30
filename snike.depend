@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1722945910 source:c:\users\usuario\desktop\help\main.cpp
+	<iostream>
+	<string>
+
+1727529903 source:c:\users\usuario\desktop\help\tedit.cpp
+	"TEdit.h"
+
+1727529916 c:\users\usuario\desktop\help\tedit.h
+	"TObject.h"
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1726671135 c:\users\usuario\desktop\help\tobject.h
+	<conio.h>
+
+1726670588 source:c:\users\usuario\desktop\help\tlabel.cpp
+	"TLabel.h"
+
+1726665132 c:\users\usuario\desktop\help\tlabel.h
+	"TObject.h"
+	<string.h>
+	<cstdio>
+
+1727559362 source:c:\users\usuario\desktop\help\tmove.cpp
+	"TMove.h"
+	"TLabel.h"
+
+1727559362 c:\users\usuario\desktop\help\tmove.h
+	"TLabel.h"
+
+1726671275 source:c:\users\usuario\desktop\help\tobject.cpp
+	"TObject.h"
+
+1727529934 source:c:\users\usuario\desktop\help\ttimer.cpp
+	"TTimer.h"
+
+1727529927 c:\users\usuario\desktop\help\ttimer.h
+	<iostream>
+	<functional>
+	<time.h>
+
+1727648316 source:c:\users\usuario\desktop\help\tcomida.cpp
+	"TComida.h"
+	<stdlib.h>
+
+1727648316 c:\users\usuario\desktop\help\tcomida.h
+	"TTimer.h"
+	<vector>
+	"TMove.h"
+
+1727648697 source:c:\users\usuario\desktop\help\tcuerpo.cpp
+	"TCuerpo.h"
+
+1727648697 c:\users\usuario\desktop\help\tcuerpo.h
+	"TComida.h"
+
